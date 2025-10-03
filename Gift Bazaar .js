@@ -8,8 +8,8 @@ async function showAllProducts() {
   // showcard.innerHTML = "<p>Loading products...</p>";
 
   try {
-    const data = await fetch("https://fakestoreapi.com/products"); // সব product আনবো
-    const response = await data.json();
+    const data = await fetch();
+    const response = await data.json("https://fakestoreapi.com/products");
     // displayProducts(response);
     response.forEach(product=>{
      const creatediv=document.createElement("div");
