@@ -111,7 +111,7 @@ li{
     border: none;
     border-radius: 10px;
 }
-.footer{
+#footer{
     height: 100px;
     width: 100%;
     background-color: green;
@@ -236,7 +236,7 @@ display: flex;
     border: 1px solid black;
 }
 
-.main-section{
+#main-section{
     display: flex;
     justify-content: space-between;
 }
@@ -251,7 +251,7 @@ display: flex;
      color: black;
 }
 
-.all-contact{
+#all-contact{
   display:flex;
   justify-content:space-between;
   padding:40px;
@@ -421,7 +421,7 @@ span{
   display:block;
   text-align: start;
 }
-.footer p{
+#footer p{
     display: flex;
     justify-content: space-between;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -529,16 +529,16 @@ span{
 .shopcom{
     display: none;
 }
-.footer p{
+#footer p{
     display: flex;
     justify-content: space-between;
 }
-.main-section{
+#main-section{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.all-contact{
+#all-contact{
     display: flex;
     flex-direction: column;
     margin-top: 20px;
@@ -552,7 +552,7 @@ span{
     min-width: unset;
     margin-bottom: 20px;
 }
-.footer{
+#footer{
     display: flex;
     flex-direction: column;
 }
